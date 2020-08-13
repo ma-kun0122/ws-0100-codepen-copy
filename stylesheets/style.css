@@ -1,0 +1,140 @@
+html {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #131417; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: #FFFFFF; }
+
+.l-flex {
+  display: flex; }
+
+.l-align-center {
+  align-items: center; }
+
+.l-flex-wrap {
+  flex-wrap: wrap; }
+
+.l-footer {
+  margin: 20px;
+  float: left; }
+  .l-footer .footer-list {
+    display: inline;
+    float: left; }
+    .l-footer .footer-list .footer-list-menus {
+      font-weight: bold;
+      font-size: 18px;
+      display: inline; }
+    .l-footer .footer-list ul li {
+      display: inline;
+      color: #b7bbc8;
+      font-weight: lighter; }
+
+.l-header {
+  display: flex;
+  background-color: #252830;
+  margin: 10px;
+  border-radius: 30px; }
+  .l-header i {
+    font-size: 25px;
+    margin: 10px; }
+  .l-header .form-text {
+    margin-top: 10px;
+    background-color: #252830;
+    border: none;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold; }
+  .l-header .header-btn {
+    padding: 10px; }
+    .l-header .header-btn a {
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: lighter;
+      min-width: 100px; }
+    .l-header .header-btn .sign-up {
+      background-color: #00AA00;
+      color: black;
+      margin-right: 5px; }
+    .l-header .header-btn .login {
+      background-color: #AAAAAA; }
+
+.l-sidebar {
+  width: 200px; }
+
+.sidebar {
+  background-color: #1f1f26; }
+
+.Title-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 34px; }
+
+.starting-up {
+  text-align: center;
+  margin-bottom: 30px; }
+  .starting-up .annnounce {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #b7bbc8;
+    margin-bottom: 20px; }
+  .starting-up .btn {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(black, black), linear-gradient(90deg, #00ff00 0%, #FFCC00 25%, #CC99FF 50%, #00CCFF 75%, #00ff00 100%);
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 30px;
+    padding-left: 30px; }
+    .starting-up .btn:hover {
+      opacity: 0.5; }
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  font-size: 18px; }
+  ul a {
+    display: block;
+    text-decoration: none;
+    padding-left: 15px; }
+    ul a:hover {
+      background-color: black; }
+
+.sidebar-list p {
+  margin-left: 15px; }
+
+.sidebar-list .PRO {
+  background-color: black; }
+
+.sidebar-list .sidebar-list-menutitle {
+  margin-bottom: 2px; }
+
+.title-explore {
+  color: #ffd700; }
+
+.title-grow {
+  color: #32cd32; }
+
+.title-companies {
+  color: #00bfff; }
+
+.other-menus a {
+  color: #b7bbc8; }
