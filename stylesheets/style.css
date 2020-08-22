@@ -293,6 +293,10 @@ body {
     margin-left: 10px;
     background-color: #808080; }
 
+@media (max-width: 576px) {
+  .sidebar {
+    display: none; } }
+
 .l-sidebar {
   flex: 1;
   background-color: #1F1F26; }
