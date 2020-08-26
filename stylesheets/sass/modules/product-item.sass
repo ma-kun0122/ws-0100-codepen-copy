@@ -1,58 +1,72 @@
-.product-item-list
+.product-item
+    background: $card-gray
+    margin: 2rem 1rem
+    width: 360px
+
+.product-item-card
+    border-radius: 4px
+    background: $card-gray
+    transition: .2s
+    &:hover
+        transform: scale(1.05)
+        opacity: .4
+        cursor: pointer
+
+
+.product-item-row
+    justify-content: center
+.product-item-list-footer
+    display: flex
     justify-content: center
 
-.product
-    margin: 50px 5px
-    background-color: #1F1F26
-    height: 360px 
-    width: 380px
-    &:hover
-        opacity: 0.5
-        transform: scale(1.02)
-        transition-duration: 0.3s
-   
-    .product-item
-        padding: 0 30px
-    .product-text
-        padding: 15px 0
-        p
-            color: #b7bbc8
+.product-message-body
+    color: $lightgray
+    margin-bottom: 16px
 
-.item-img
-    text-align: center
-    padding: 10px 0
+.product-item-card-image
+    width: 350px
+    border-radius: 4px
+    margin: auto
+    padding: 8px
     img
-        justify-content: center
-        width: 320px
-        height: 200px
+      border-radius: 4px
+      object-fit: cover
+      width: 100%
 
-.product-body
-    margin-bottom: 30px
+.product-item-card-body-avator
+    width: 40px
+    height: 40px
+    border-radius: 4px
     img
-        width: 50px
-        height: auto
-        border-radius: 5px
-
-    .user-status
-        p
-            padding: 0
-            margin: 0 16px
-            font-size: 16px
-        .user-name
-            color: #d3d3d3
+      border-radius: 4px
+      object-fit: cover
+      width: 100%
 
 
-.product-footer
-    font-size: 18px
-    .footer-btn
-        margin-right: 2px
-        padding: 5px
-        background-color: black
-        border-radius: 3px
-        color: white
+.product-item-card-body
+    display: flex
+    padding: 16px
+    padding-top: 0
 
-.product-item-list-footer
-    text-align: center
-    font-size: 20px
-    a
-        border: solid
+
+.product-item-card-body-title
+    margin-left: 1rem
+    p
+      margin: 0
+
+
+.product-item-card-body-title-text
+    margin: 0
+
+
+.product-item-card-footer-card
+    background: $black
+    border-radius: 4px
+    margin-right: 4px
+    padding: 2px 4px
+    
+.product-item-card-footer
+    padding: 8px 16px
+
+.button-outline
+    border: solid

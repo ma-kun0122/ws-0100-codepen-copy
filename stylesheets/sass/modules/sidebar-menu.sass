@@ -1,17 +1,12 @@
 .sidebar
-    @media ( max-width: 576px )
-        display: none
+    @include sm
+     display: none
 
-.l-sidebar
-    flex: 1
-    background-color: #1F1F26
-    
 .title-logo
-        text-align: center
-        font-size: 36px
+    text-align: center
+    font-size: 36px
 
 a
-    text-decoration: none
     display: block
 
 .get-start
@@ -24,7 +19,6 @@ a
     margin-bottom: 0
 
 .start-btn
-    display: inline-block
     font-size: 18px
     margin: 0 15px
     padding-top: 8px
@@ -47,20 +41,6 @@ a
         font-size: 16px
         &:hover
             background-color: black
-    .explore-text
-        color: gold
-    .grow-text
-        color: #32cd32
-    .companies-text
-        color: #00bfff    
-    .pro
-        margin-left: 2px
-        padding: 2px
-        background-color: gold
-        border-radius: 3px
-        color: black
-        font-size: 0.8em
-
     
 
     .sidebar-footer
