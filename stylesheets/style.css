@@ -250,7 +250,7 @@ a {
 
 .footer {
   justify-content: space-between;
-  padding: 30px;
+  padding: 32px;
   background-color: black; }
 
 .footer-menus ul {
@@ -278,7 +278,8 @@ a {
   margin: 32px; }
 
 .hero-body {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .hero-logo {
   font-size: 36px; }
